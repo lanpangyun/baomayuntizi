@@ -1,0 +1,33 @@
+# ==============================
+# 人字梯设计图纸专用 .gitignore
+# ==============================
+
+# CAD 临时文件
+*.bak
+*.dwl
+*.dwl2
+*.log
+*.err
+
+# SolidWorks 缓存文件
+*.slddbg
+*.sldtmb
+*.sldrt
+*.sldprt.bak
+*.sldasm.bak
+
+# 压缩包（不上传）
+*.zip
+*.rar
+*.7z
+*.tar.gz
+
+# Excel 临时文件
+~$*.xlsx
+~$*.xls
+
+# 系统垃圾文件
+.DS_Store
+Thumbs.db
+*.tmp
+*.swp
