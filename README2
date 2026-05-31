@@ -1,0 +1,49 @@
+# Aluminum Household A-Frame Ladder Design Drawings
+家用铝合金人字梯全套产品设计图纸开源仓库
+[![MIT License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+[![CAD Standard GB/T](https://img.shields.io/badge/Standard-GB%2FT%204458-green)](#国标设计标准)
+[![Model Format STEP/DWG](https://img.shields.io/badge/File-DWG%2CSTEP%2CSLDPRT-orange)](#图纸文件说明)
+
+
+
+## 项目简介
+本仓库开源一套**5步家用铝合金人字梯**完整工业设计图纸，符合国内梯子安全标准GB 17889-2022，适用于五金工厂开模、钣金加工、DIY自制、机械设计学习参考。
+### 设计参数（标准款）
+- 额定承重：150KG
+- 梯高（展开作业高度）：1.45m
+- 踏板级数：5级，踏板间距280mm（人体工学）
+- 材质：6063-T5铝合金方管
+- 展开安全角度：75°，自带限位拉绳防侧翻
+- 折叠厚度：120mm，家用收纳友好
+- 底部防滑橡胶脚垫、顶部锁定铰链、加宽防滑踏板
+
+## 仓库文件目录
+
+aluminum-step-ladder-design/
+├── README.md                 # 仓库首页开源说明（核心）
+├── LICENSE                   # MIT开源协议文件
+├── docs/                     # 产品技术文档
+│   ├── 产品设计规格书.md
+│   ├── 力学安全校核报告.pdf
+│   ├── 加工工艺规范.md
+│   └── 国标参考标准目录.md
+├── drawings/                 # 全部工程图纸（核心图纸文件夹）
+│   ├── 2D-CAD/
+│   │   ├── main-assembly.dwg  # 人字梯总装三视图（打开/折叠双状态）
+│   │   ├── parts-detail.dwg   # 零部件拆分详图：梯梁、踏板、铰链、脚垫
+│   │   ├── explosion-view.dwg # 爆炸分解图（装配指导）
+│   │   ├── weld-drawing.dwg   # 焊接加工图
+│   │   └── frame-template.dwg # 国标A3图框模板
+│   └── 3D-MODEL/
+│       ├── ladder-main.step   # 通用STEP三维模型（全软件兼容）
+│       ├── ladder-main.iges
+│       └── SolidWorks/        # 原生三维源文件
+├── bom/
+│   ├── BOM-完整物料清单.xlsx
+│   └── BOM-轻量化csv
+├── assets/                    # 预览图、效果图
+│   ├── render-open.png        # 梯子展开效果图
+│   ├── render-fold.png        # 折叠收纳效果图
+│   ├── drawing-preview.jpg   # CAD图纸预览图
+│   └── structure-diagram.svg  # Mermaid结构示意图
+└── .gitignore                # Git忽略文件（CAD缓存、编译文件、压缩包）
