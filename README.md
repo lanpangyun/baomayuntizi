@@ -1,0 +1,2 @@
+# baomayuntizi
+BaomaYun梯子并非正规登高工具，而是网络上低可信度VPN站点
